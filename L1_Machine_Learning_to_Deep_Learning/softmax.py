@@ -1,5 +1,12 @@
 """Softmax."""
 
+
+
+'''
+If we multiply the scores by 10, the softmax goes to 1 and 0s.
+Similarly, if we divide the scores by 10, the softmax goes to 
+uniform.
+'''
 scores = [3.0, 1.0, 0.2]
 
 import numpy as np
